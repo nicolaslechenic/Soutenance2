@@ -1,36 +1,34 @@
 @font-face {
     font-family: "caviar_dreamsbold";
-    src: url("./fonts/caviar_dreams_bold-webfont.woff2") format("woff2"),
-        url("./fonts/caviar_dreams_bold-webfont.woff") format("woff");
+    src: url("./fonts/caviar_dreams_bold-webfont.woff2") format("woff2"), url("./fonts/caviar_dreams_bold-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "caviar_dreamsregular";
-    src: url("./fonts/caviardreams-webfont.woff2") format("woff2"),
-        url("./fonts/caviardreams-webfont.woff") format("woff");
+    src: url("./fonts/caviardreams-webfont.woff2") format("woff2"), url("./fonts/caviardreams-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "caviar_dreamsbold_italic";
-    src: url("./fonts/caviardreams_bolditalic-webfont.woff2") format("woff2"),
-        url("./fonts/caviardreams_bolditalic-webfont.woff") format("woff");
+    src: url("./fonts/caviardreams_bolditalic-webfont.woff2") format("woff2"), url("./fonts/caviardreams_bolditalic-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "caviar_dreamsitalic";
-    src: url("./fonts/caviardreams_italic-webfont.woff2") format("woff2"),
-        url("./fonts/caviardreams_italic-webfont.woff") format("woff");
+    src: url("./fonts/caviardreams_italic-webfont.woff2") format("woff2"), url("./fonts/caviardreams_italic-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
+
 /*---------general---------*/
+
 * {
     font: 16px "caviar_dreamsregular", Arial;
 }
@@ -60,9 +58,12 @@ a {
     --black: #000000;
 }
 
+
 /*-------HOMEPAGE-------*/
 
+
 /*--------HEADER--------*/
+
 #top-nav {
     background-color: var(--home-grey);
 }
@@ -130,6 +131,7 @@ a {
     font-size: 3rem;
 }
 
+
 /*------------MAIN------------*/
 
 main {
@@ -195,7 +197,9 @@ main {
     color: white;
 }
 
+
 /*---nos maisons---*/
+
 .nos-maisons h2 {
     font: 2.4rem "caviar_dreamsbold", "arial";
     margin-bottom: 3rem;
@@ -259,7 +263,9 @@ main {
     color: white;
 }
 
+
 /*---------FOOTER--------*/
+
 footer {
     position: relative;
 }
@@ -372,6 +378,7 @@ footer .adresse a:hover {
     color: var(--black);
 }
 
+
 /*______________________________________APROPOS PAGE______________*/
 
 .d-button {
@@ -416,6 +423,7 @@ footer .adresse a:hover {
     margin-bottom: 70px;
 }
 
+
 /*------------------CONTACT PAGE-----------*/
 
 #contact-page article div img {
@@ -447,6 +455,7 @@ footer .adresse a:hover {
     background-color: black;
     color: white;
 }
+
 
 /*-----------NOS MAISONS PAGE-----------------*/
 
@@ -501,138 +510,111 @@ footer .adresse a:hover {
 
 @media (max-width: 768px) {
     /*---header---*/
-
     #header-main-nav .navbar {
         background-color: var(--fushia-dark);
     }
-
     .pad-top {
         padding-top: 0;
     }
-
     #header-main-nav {
         background-image: none;
         height: auto;
         position: relative;
     }
-
     #header-main-nav .container,
     #header-main-nav nav {
         max-width: 100%;
         margin: 0;
     }
-
     #header-main-nav .container,
     #header-main-nav {
         padding: 0;
     }
-
     #bienvenue {
         margin-top: 0px;
     }
-
     .contUs,
     .contactUs {
         top: 300px;
     }
-
     /*----main----*/
-
     .nos-maisons .card {
         width: 48%;
     }
-
     /*-----footer-------*/
-
     #footer-main i {
         font-size: 1rem;
     }
-
     #footer-main {
         top: 3rem;
     }
-
     .adresse {
         width: 25%;
     }
-
     .adresse p,
     #footer-black>div p:last-child,
     footer .adresse button {
         font-size: 0.7rem;
     }
-
     .adresse a,
     #footer-bottom p,
     #footer-bottom a {
         font-size: 0.6rem;
     }
-
     #footer-black>div p:first-child {
         font-size: 1.5rem;
     }
-
     #footer-black {
         padding: 30px 0 40px;
         top: -20px;
         left: 30%;
     }
-
     #inscription p,
     #black-social i,
     #footer-main i {
         font-size: 1rem;
     }
-
     .adresse p:first-of-type,
     #footer-black>div p:first-child {
         font-size: 1.2rem;
     }
-
     #black-top {
         padding-bottom: 5px;
         margin-bottom: 1rem;
     }
-
     /*--------------A PROPOS-------*/
-
     #apropos p,
     #apropos li {
         font-size: 1.1rem;
     }
-
     /*------------------CONTACT PAGE-----------*/
-
     .section-header {
         font-size: 1.6rem;
     }
-
     #contact-page article div p,
     #nosMaisons>article p {
         font-size: 1.1rem;
     }
-
     #contact-page .form-group input,
     #contact-page .form-check label,
     #contact-page label {
         font-size: 1rem;
     }
-
     #contact-page .form-check input[type="checkbox"] {
         transform: scale(1.1);
     }
-
     #contact-page button[type="submit"] {
         font-size: 0.8rem;
     }
-
     /*--------NOS MAISONS--------*/
     #nosMaisons section h2 {
         font-size: 1.2rem;
     }
-
     #nosMaisons option,
     #nosMaisons select {
         font-size: 0.4rem;
+    }
+    #contact-page .form-check input[type="checkbox"] {
+        margin-top: 5px;
     }
 }
