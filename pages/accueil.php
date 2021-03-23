@@ -10,7 +10,7 @@ include('../layouts/header.php') ?> <main>
         <h1 class="mr-4 section-header">Bienvenue Chez Simply Home</h1>
         <div class="row m-3">
             <article class="col-lg-9 col-sm-12 text-justify">
-                <p>Pellentesque id sagittis turpis, eget elementum eros. Fusce blandit ex a nulla tempor condimentum.
+                <p>Fusce blandit ex a nulla tempor condimentum.
                     Fusce
                     consectetur et blandit aliquet, egestas id magna. In hac habitasse platea dictumst. </p>
                 <p>usce sed tincidunt nibh. Phasellus quis cursus velit. Ut quis aliquam sem. Suspendisse at
